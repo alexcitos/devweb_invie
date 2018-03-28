@@ -9,6 +9,14 @@ body  {
   font-family: 'Allerta', sans-serif;
 }
 
+button {
+  border-radius: 5px;
+  border: none;
+  background: #FD324E;
+  color: white;
+  padding: 7px;
+}
+
 .titulo{
   font-size: 70px;
   font-family: 'Montserrat', sans-serif;
@@ -48,6 +56,8 @@ body  {
 .menu {
   font-size: 24px;
   display: inline-block;
+  position: absolute;
+  right: 0;
 }
 
 .menu li {
@@ -67,8 +77,9 @@ body  {
 .guitarra {
   margin: 10px;
   padding: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
   border: 1px solid #1F313C;
+  border-radius: 8px;
 }
 
 .guitarra ol {
@@ -77,10 +88,14 @@ body  {
 
 .derecha {
   float: right;
+  position: relative;
+  top: -127px;
 }
 
 .izquierda {
   float: left;
+  position: relative;
+  top: 80px;
 }
 
 .contenedor-guitarra-a {
@@ -89,4 +104,25 @@ body  {
 
 .contenedor-guitarra-b {
   margin-left: 370px; 
+}
+
+.header {
+  position: relative;
+}
+
+.footer {
+  background: #273b47;
+}
+
+.contacto img {
+  display: block;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
 }
